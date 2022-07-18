@@ -16,7 +16,8 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             styleMask: [.miniaturizable, .closable, .resizable, .titled],
             backing: .buffered, defer: false)
         window?.center()
-        window?.title = "No Storyboard Window"
+        window?.title = "UI Tests"
+        window?.contentViewController = ViewController()
         window?.makeKeyAndOrderFront(nil)
     }
     
