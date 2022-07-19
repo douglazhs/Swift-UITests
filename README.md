@@ -1,4 +1,4 @@
-<img alt="Cocoapods platforms" src="https://img.shields.io/cocoapods/p/SnapKit?color=forrest&label=Plataform&logoColor=red&style=plastic">
+![Cocoapods platforms](https://img.shields.io/cocoapods/p/SnapKit?color=forrest&label=Plataform&logoColor=red&style=plastic)
 # Swift-UITests
 A simple app to learn UI tests in Swift.
 ## Login screen where will be executed the tests.
