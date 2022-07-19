@@ -11,7 +11,7 @@ Os testes foram feitos usando o **XCTest**.
 2. Elaboração do teste. Nesse caso como se tratava de uma tela de login, as interações necessárias eram toque, escrita e clique.
 - Portanto, foram utilizados os seguintes métodos:
 ```
-  - .tap
-  - .typeText
-  - .click
+.tap()
+.typeText()
+.click
 ```
