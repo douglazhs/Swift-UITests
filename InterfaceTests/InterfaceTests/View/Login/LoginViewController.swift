@@ -10,11 +10,11 @@ import AppKit
 
 class LoginViewController: NSViewController{
     override func viewDidLoad() {
-        
+        super.viewDidLoad()
     }
     
     override func loadView() {
-        self.view = NSView(frame: NSRect(x: 0, y: 0, width: 270, height: 270))
+        self.view = LoginView(frame: NSRect(x: 0, y: 0, width: 270, height: 270))
     }
     
     override var representedObject: Any? {

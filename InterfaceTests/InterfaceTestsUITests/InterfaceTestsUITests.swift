@@ -11,7 +11,6 @@ class InterfaceTestsUITests: XCTestCase {
 
     override func setUpWithError() throws {
         continueAfterFailure = false
-
     }
 
     func testLoginView() throws {

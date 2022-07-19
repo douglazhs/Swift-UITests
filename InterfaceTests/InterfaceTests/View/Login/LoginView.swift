@@ -68,6 +68,21 @@ class LoginView: NSView {
         return stack
     }()
     
+    override init(frame frameRect: NSRect) {
+        super.init(frame: frameRect)
+        addViews()
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
+    func addViews(){
+        addSubview(loginLabel)
+        addSubview(loginStack)
+        setupConstraints()
+    }
+    
     /// Setup constraints of all view elements
     func setupConstraints(){
         loginLabel.snp.makeConstraints { make in

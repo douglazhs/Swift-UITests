@@ -17,7 +17,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
             backing: .buffered, defer: false)
         window?.center()
         window?.title = "UI Tests"
-        window?.contentViewController = ViewController()
+        window?.contentViewController = LoginViewController()
         window?.makeKeyAndOrderFront(nil)
     }
     
