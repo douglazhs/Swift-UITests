@@ -14,4 +14,4 @@ Os testes foram feitos usando o **XCTest**.
   - .tap
   - .typeText
   - .click
-``
+```
