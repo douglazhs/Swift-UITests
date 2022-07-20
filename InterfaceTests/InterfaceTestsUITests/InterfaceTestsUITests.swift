@@ -32,6 +32,6 @@ class InterfaceTestsUITests: XCTestCase {
         let loginButton = app.buttons["Login"]
         XCTAssert(loginButton.exists)
         
-        loginButton.tap()
+        loginButton.click()
     }
 }
